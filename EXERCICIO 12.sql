@@ -1,0 +1,10 @@
+/*
+EXERCICIO 12
+
+ATUALIZE O LIMITE DO QUARTO REGISTRO DA SUA TABELA PARA 1000;
+
+*/
+
+UPDATE pessoas SET limite = 1000 WHERE nome = 'Bella';
+
+SELECT * FROM pessoas;

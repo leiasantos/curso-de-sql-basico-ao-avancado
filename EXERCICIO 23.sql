@@ -1,0 +1,9 @@
+/*
+EXERCICIO 23
+AGRUPE OS TRABALHADORES POR DATA DE CONTRATAÇÃO, 
+PARA VER SE MUITAS PESSOAS FORAM CONTRATADAS NO MESMO DIA;
+A COLUNA É hire_date;
+*/
+
+SELECT hire_date, COUNT(hire_date) AS 'Data de Contratação'
+FROM employees GROUP BY hire_date ORDER BY COUNT(hire_date) DESC;

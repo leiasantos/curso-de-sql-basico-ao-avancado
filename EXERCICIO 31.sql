@@ -1,0 +1,10 @@
+/*
+EXERCICIO 31
+OBTENHA A QUANTIDADE DE CLIENTES CADASTRADOS
+NA TABELA CUSTOMER
+
+*/
+
+SELECT COUNT(*) FROM customer;
+
+SELECT COUNT(customer_id) AS contagem_clientes FROM customer;
