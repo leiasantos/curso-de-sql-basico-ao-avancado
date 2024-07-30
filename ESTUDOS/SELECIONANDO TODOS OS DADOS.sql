@@ -1,0 +1,12 @@
+/*
+SELECIONANDO TODOS OS DADOS 
+
+*/
+
+
+SELECT * FROM pessoas;
+
+# SELECIONANDO COLUNAS ESPECIFICAS
+SELECT nome, cpf FROM pessoas;
+
+SELECT nome, limite AS LimiteR$ FROM pessoas;

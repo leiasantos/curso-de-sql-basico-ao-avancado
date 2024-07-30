@@ -1,0 +1,9 @@
+/*
+REMOVENDO TABELA
+*/
+
+CREATE TABLE teste(
+testando VARCHAR(200)
+);
+
+DROP TABLE teste ;

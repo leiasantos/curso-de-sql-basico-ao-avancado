@@ -1,0 +1,12 @@
+/*
+REMOVENDO COLUNA DA TABELA
+
+*/
+
+# ADICIONANDO UMA COLUNA
+ALTER TABLE funcionarios ADD COLUMN sobrenome VARCHAR(50) ;
+
+# REMOVENDO UMA COLUNA
+ALTER TABLE funcionarios DROP  COLUMN sobrenome;
+
+SELECT * FROM funcionarios;

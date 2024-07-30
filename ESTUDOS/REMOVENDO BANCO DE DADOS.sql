@@ -1,0 +1,7 @@
+/*
+
+REMOVENDO BANCO DE DADOS 
+
+*/
+
+DROP DATABASE doramas;
